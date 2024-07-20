@@ -1,0 +1,133 @@
+text {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.eight-plux-header-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.eight-plux-header {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 70px;
+    right: 0;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: -8px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    width: 23px;
+    height: 30px;
+    margin-left: 18px;
+    margin-right: 8px;
+}
+
+.eight-plux-logo {
+    height: 40px;
+    width: 100px;
+    padding-bottom: 28px;
+    padding-right: 55px;
+    cursor: pointer;
+}
+
+.shopping-cart {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.cart-details {
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-details .tooltip {
+    position: absolute;
+    background-color: white;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-right: 38px;
+    bottom: -26px;
+    padding: 4px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-bottom-style: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.15s
+}
+
+.cart-details:hover .tooltip {
+    opacity: 1;
+}
+
+.cart-item-quantity {
+    position: absolute;
+    color: white;
+    font-family: Arial;
+    font-size: 8px;
+    right: 22px;
+    top: -1px;
+}
+
+.search-header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.search-input {
+    flex: 1;
+    padding-left: 10px;
+    border-style: none;
+    box-shadow: -2px 0 2px rgba(0, 0, 0, 0.3);
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    height: 40px;
+}
+
+.search-input::placeholder {
+    font-family: Arial;
+}
+
+.search-icon-button {
+    height: 42px;
+    width: 43px;
+    border-style: none;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: black;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    cursor: pointer;
+}
+
+.search-icon {
+    margin-top: 4px;
+    height: 18px;
+    width: 18px;
+    transition: opacity 0.3s;
+}

@@ -1,0 +1,97 @@
+.eight-plux-footer {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-between;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 6px 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    height: 25px;
+    width: 25px;
+}
+
+.shop-area,
+.wishlist-area,
+.cart-area,
+.account-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.shop-area:hover,
+.wishlist-area:hover,
+.cart-area:hover,
+.account-area:hover,
+.search-icon:hover {
+    opacity: 0.5;
+}
+
+.shop-name,
+.wishlist-name,
+.cart-name,
+.my-account-name {
+    font-size: 12px;
+    opacity: 0.7;
+    margin-top: 3px;
+
+}
+
+.shop-area {
+    margin-left: 20px;
+}
+
+.account-area {
+    margin-right: 20px;
+}
+
+.cart-area,
+.wishlist-area {
+    margin-left: 10px;
+}
+
+.cart-area {
+    position: relative;
+}
+
+.cart-quantity {
+    font-size: 10px;
+    position: absolute;
+    top: -3px;
+    right: -6px;
+    font-family: Arial;
+    background-color: black;
+    color: white;
+    padding: 1px 4px;
+    border-radius: 6px;
+}
+
+.dollar-sign {
+    position: fixed;
+    right: 0;
+    top: 106px;
+    background-color: rgb(40, 37, 37);
+    color: white;
+    padding: 10px 20px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+.naira-sign {
+    position: fixed;
+    right: 0;
+    top: 145px;
+    background-color: rgb(196, 6, 6);
+    color: white;
+    padding: 10px 18px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.picture-one {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.image-one {
+    margin-top: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
