@@ -3,3 +3,43 @@ body {
     font-family: Roboto;
     margin: 0;
 }
+
+.top-category-container {
+    background-color: rgb(246, 244, 244);
+    padding-top: 37px;
+    border-width: 2px;
+}
+
+.top-category {
+    display: inline-block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 18px;
+    margin-left: 5px;
+    color: rgb(48, 47, 47);
+}
+
+.empty-div {
+    height: 10px;
+    background-color: rgb(246, 244, 244);
+}
+
+.border-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.border-short {
+    width: 170px;
+    height: 2px;
+    background-color: black;
+    margin-left: 8px;
+}
+
+.border-long {
+    flex: 1;
+    height: 2px;
+    background-color: rgb(220, 217, 217);
+    margin-right: 8px;
+}
