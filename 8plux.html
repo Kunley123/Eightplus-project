@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/images.css">
+    <link rel="stylesheet" href="styles/currency.css">
 </head>
 
 <body>
@@ -53,9 +54,24 @@
 
     </div>
 
-    <div>
-        <div class="dollar-sign">USD $</div>
-        <div class="naira-sign">NGN #</div>
+    <div class="currency-container">
+
+        <div class="dollar-sign-container">
+            <button class="dollar-sign-button">USD $
+                <div class="tool-tip">USD
+                    <div class="triangle"></div>
+                </div>
+            </button>
+        </div>
+
+        <div class="naira-sign-container">
+            <button class="naira-sign-button">NGN #
+                <div class="tool-tip">NGN
+                    <div class="triangle"></div>
+                </div>
+            </button>
+        </div>
+
     </div>
 
     <div class="image-container">
@@ -66,6 +82,8 @@
         </div>
 
     </div>
+
+    <p class="top-category"><u>TOP CATEGORIES</u></p>
 
 </body>
 
