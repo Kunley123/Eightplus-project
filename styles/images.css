@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: row;
     margin-top: 40px;
+    margin-bottom: -24px;
     /* height: 600px; */
     /* width: 1580px; */
     max-width: 100%;
@@ -123,6 +124,154 @@
     height: 461px;
     margin-right: 6px;
 
+}
+
+
+
+.new-arrival-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 30px;
+    margin-top: -4px;
+}
+
+.images {
+    height: 300px;
+    width: 182px;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+/* .image-container {
+    position: relative;
+
+}
+
+.image-tooltip {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+} */
+
+.containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one-container {
+    margin-top: -327px;
+}
+
+.two-container {
+    margin-top: -355px;
+}
+
+.three-container {
+    margin-top: -318px;
+}
+
+.four-container {
+    margin-top: -335px
+}
+
+.five-container {
+    margin-top: -317px;
+}
+
+.six-container {
+    margin-top: -335px;
+}
+
+.seven-container {
+    margin-top: -335px;
+}
+
+.eight-container {
+    margin-top: -317px;
+}
+
+.alien-rave-tees {
+    height: 259px;
+}
+
+.badman-rave-tees {
+    height: 230px;
+}
+
+.classic-face-cap,
+.ancestral-female-pant,
+.goddess-t-shirt {
+    height: 268px;
+}
+
+.ancestral-rebirth-shirt,
+.ancestral-adam-sweatshirt,
+.ancestral-metamorphosis-sweatshirt {
+    height: 249px;
+}
+
+.product-type {
+    font-size: x-small;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(172, 170, 170);
+    margin: 10px 0;
+}
+
+.product-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    color: rgb(64, 61, 61);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.product-price {
+    font-family: Arial;
+    font-size: 12px;
+    color: rgb(125, 119, 119);
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+button {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(106, 103, 103);
+    margin-right: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+span {
+    color: rgb(188, 186, 186);
+}
+
+button:hover {
+    border-color: rgb(95, 92, 92);
+    transition: 0.1s;
+}
+
+
+.alien-rave-container,
+.badman-rave-container,
+.classic-cap-container,
+.ancestral-rebirth-container,
+.ancestral-female-container,
+.ancestral-adam-container,
+.ancestral-metamorphosis-container,
+.oversized-ancestral-container {
+    margin-top: 24px;
 }
 
 /* @keyframes scroll {
