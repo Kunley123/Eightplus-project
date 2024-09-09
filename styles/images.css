@@ -126,8 +126,6 @@
 
 }
 
-
-
 .new-arrival-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -148,19 +146,24 @@
 
 .image-tooltip {
     position: absolute;
-    top: 15px;
-    right: 40px;
-    height: 28px;
-    width: 28px;
-    background-color: rgb(238, 238, 238);
+    top: 11px;
+    right: 14px;
+    height: 27px;
+    width: 27px;
+    background-color: rgba(248, 244, 245, 0.77);
     border-radius: 20px;
     opacity: 0;
     cursor: pointer;
-    transition: opacity 0.5s;
+    transition: opacity 0.2s;
+}
+
+.new-arrival-image-container:hover .image-tooltip {
+    opacity: 1;
 }
 
 .image-tooltip:hover {
-    opacity: 1;
+    background-color: white;
+    transition: 0.1s;
 }
 
 .containers {
@@ -249,8 +252,49 @@ button:hover {
 .ancestral-metamorphosis-container,
 .oversized-ancestral-container {
     margin-top: 24px;
-    margin-right: 20px;
+    margin-right: 22px;
 }
+
+.select-option-tooltip {
+    position: absolute;
+    top: 0.7px;
+    right: 35px;
+    font-size: 11px;
+    background-color: rgb(22, 17, 50);
+    white-space: nowrap;
+    color: white;
+    padding: 5px 10px;
+    padding: 6px 10px;
+    font-weight: bold;
+    border-radius: 3px;
+    opacity: 0;
+    transition: opacity 0.2s;
+    pointer-events: none;
+}
+
+.select-option-tooltip .tooltip-triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid rgb(22, 17, 50);
+    right: -5.5px;
+    bottom: 8px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.image-tooltip:hover .tooltip-triangle {
+    opacity: 1;
+    transition: 0.2s;
+}
+
+.image-tooltip:hover .select-option-tooltip {
+    opacity: 1;
+    transition: 0.2s;
+}
+
 
 /* @keyframes scroll {
     0% {
