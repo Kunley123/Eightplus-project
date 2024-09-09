@@ -14,17 +14,20 @@
     color: white;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    padding: 12px 20px;
+    padding: 12px 20.5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 0;
     cursor: pointer;
     border-top: 0;
     border-left: 0;
-    border-bottom-color: black;
+    border-bottom: 0;
 }
 
 .naira-sign-button:hover {
     background-color: rgb(196, 6, 6);
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
 }
 
 .dollar-sign-button .tool-tip {
@@ -47,7 +50,7 @@
 .naira-sign-button:hover .tool-tip {
     opacity: 1;
     transition: 0.4s;
-    left: -227%;
+    left: -225%;
 }
 
 .naira-sign-button .tool-tip {
@@ -68,19 +71,20 @@
 
 .naira-sign-button {
     position: relative;
-    top: -8px;
+    top: -6px;
     background-color: rgb(40, 37, 37);
     color: white;
-    padding: 12px 18px;
+    padding: 12px 18.5px;
+    border-top-style: solid;
+    border-top-color: black;
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
     border-width: 1px;
-    border-top-color: rgb(0, 0, 0);
-    border-bottom-color: rgb(0, 0, 0);
     border-bottom-left-radius: 5px;
     cursor: pointer;
     border-left: 0;
+
 }
 
 .tool-tip {

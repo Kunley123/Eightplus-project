@@ -140,57 +140,33 @@
     width: 182px;
     object-fit: cover;
     cursor: pointer;
-
 }
 
-/* .image-container {
+.new-arrival-image-container {
     position: relative;
-
 }
 
 .image-tooltip {
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 15px;
+    right: 40px;
+    height: 28px;
+    width: 28px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.5s;
+}
 
-} */
+.image-tooltip:hover {
+    opacity: 1;
+}
 
 .containers {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.one-container {
-    margin-top: -327px;
-}
-
-.two-container {
-    margin-top: -355px;
-}
-
-.three-container {
-    margin-top: -318px;
-}
-
-.four-container {
-    margin-top: -335px
-}
-
-.five-container {
-    margin-top: -317px;
-}
-
-.six-container {
-    margin-top: -335px;
-}
-
-.seven-container {
-    margin-top: -335px;
-}
-
-.eight-container {
-    margin-top: -317px;
 }
 
 .alien-rave-tees {
@@ -241,16 +217,17 @@ button {
     background-color: white;
     border-style: solid;
     border-width: 1px;
+    border-color: rgb(223, 223, 223);
     padding: 6px 12px;
     border-radius: 3px;
     font-family: arial;
     font-size: 12px;
     font-weight: bold;
-    color: rgb(106, 103, 103);
+    color: rgb(86, 84, 84);
     margin-right: 5px;
     margin-bottom: 8px;
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.2s;
 }
 
 span {
@@ -258,8 +235,8 @@ span {
 }
 
 button:hover {
-    border-color: rgb(95, 92, 92);
-    transition: 0.1s;
+    border-color: rgb(146, 143, 143);
+    transition: 0.2s;
 }
 
 
@@ -272,6 +249,7 @@ button:hover {
 .ancestral-metamorphosis-container,
 .oversized-ancestral-container {
     margin-top: 24px;
+    margin-right: 20px;
 }
 
 /* @keyframes scroll {
