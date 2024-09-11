@@ -295,6 +295,27 @@ button:hover {
     transition: 0.2s;
 }
 
+.four-images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+    margin-left: 40px;
+
+}
+
+.four-images {
+    height: 400px;
+    width: 278px;
+    object-fit: cover;
+    margin-right: -10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.best-seller {
+    margin-bottom: 150px;
+}
+
 
 /* @keyframes scroll {
     0% {
