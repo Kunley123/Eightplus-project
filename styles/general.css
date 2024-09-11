@@ -1,5 +1,5 @@
 body {
-    height: 4000px;
+    height: 5000px;
     font-family: Roboto;
     margin: 0;
 }
@@ -44,7 +44,7 @@ body {
     margin-right: 8px;
 }
 
-p {
+.paragraph {
     font-size: 48px;
     display: flex;
     justify-content: center;
@@ -52,6 +52,7 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
 }
+
 
 .para-best-seller {
     margin-top: 10px;
