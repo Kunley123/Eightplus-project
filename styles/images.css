@@ -129,13 +129,16 @@
 .new-arrival-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin-left: 30px;
+    row-gap: 8px;
+    column-gap: 20px;
     margin-top: -4px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 100px;
 }
 
 .images {
-    height: 300px;
-    width: 182px;
+    width: 100%;
     object-fit: cover;
     cursor: pointer;
 }
@@ -173,23 +176,23 @@
 }
 
 .alien-rave-tees {
-    height: 259px;
+    height: 100%;
 }
 
 .badman-rave-tees {
-    height: 230px;
+    height: 100%;
 }
 
 .classic-face-cap,
 .ancestral-female-pant,
 .goddess-t-shirt {
-    height: 268px;
+    height: 100%;
 }
 
 .ancestral-rebirth-shirt,
 .ancestral-adam-sweatshirt,
 .ancestral-metamorphosis-sweatshirt {
-    height: 249px;
+    height: 100%;
 }
 
 .product-type {
@@ -252,7 +255,78 @@ button:hover {
 .ancestral-metamorphosis-container,
 .oversized-ancestral-container {
     margin-top: 24px;
-    margin-right: 22px;
+}
+
+
+@media (min-width: 1000px) {
+    .new-arrival-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 30px;
+    }
+
+    .images {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1999px) {
+    .new-arrival-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 30px;
+        margin-top: -4px;
+    }
+
+    .images {
+        height: 100%px;
+        width: 100%px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .product-type {
+        font-size: x-small;
+        font-family: Arial;
+        font-weight: bold;
+        color: rgb(172, 170, 170);
+        margin: 10px 0;
+    }
+
+    .product-name {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: rgb(64, 61, 61);
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+
+    .product-price {
+        font-family: Arial;
+        font-size: 14px;
+        color: rgb(125, 119, 119);
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 750px) {
+    .new-arrival-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+        margin-top: -4px;
+    }
+
+    .images {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        cursor: pointer;
+    }
 }
 
 .select-option-tooltip {
@@ -298,18 +372,30 @@ button:hover {
 .four-images-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 90px;
+    row-gap: 20px;
+    column-gap: 20px;
     margin-left: 40px;
-
+    margin-right: 40px;
+    margin-top: 90px;
 }
 
 .four-images {
     height: 400px;
-    width: 278px;
+    width: 100%;
     object-fit: cover;
-    margin-right: -10px;
-    margin-top: 20px;
     cursor: pointer;
+}
+
+@media (min-width: 1001px) and (max-width: 1999px) {
+    .four-images-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 200px;
+    }
 }
 
 .best-seller {
