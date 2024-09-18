@@ -13,6 +13,7 @@
     height: 18px;
     width: 18px;
     margin-right: 8px;
+    cursor: pointer;
 }
 
 .social-media-container {
@@ -22,7 +23,7 @@
 .let-it-fly-image {
     height: 100px;
     width: 170px;
-
+    cursor: pointer;
 }
 
 .let-it-fly-logo {
