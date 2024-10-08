@@ -174,6 +174,94 @@
 
 }
 
+@media (max-width: 768px) {
+    .second-item-container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+        margin-bottom: -24px;
+        /* height: 600px; */
+        /* width: 1580px; */
+        max-width: 100%;
+        overflow-x: scroll;
+        scrollbar-width: none;
+        animation: scroll 25s infinite linear;
+    }
+
+    .first-of-second,
+    .second-of-second {
+        /* height: auto;
+        width: 100%;
+        max-height: 100%; */
+        height: 390px;
+        width: 320px;
+        object-fit: cover;
+        overflow: hidden;
+
+    }
+
+    .third-of-second,
+    .fourth-of-second {
+        /* height: auto;
+        width: 100%; */
+        height: 431px;
+        width: 320px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    .fifth-of-second {
+        /* height: auto;
+        width: 100%; */
+        height: 461px;
+        width: 320px;
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+
+    .first-of-second-div:hover,
+    .second-of-second-div:hover,
+    .third-of-second-div:hover,
+    .fourth-of-second-div:hover,
+    .fifth-of-second-div:hover {
+        transform-origin: center;
+        transform: scale(1.05);
+
+    }
+
+    .first-of-second-div,
+    .second-of-second-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 320px;
+        height: 390px;
+        margin-right: 6px;
+        max-width: none;
+        transform-origin: center;
+        transition: transform 0.3s
+    }
+
+    .third-of-second-div,
+    .fourth-of-second-div {
+        width: 900px;
+        height: 431px;
+        margin-right: 6px;
+
+    }
+
+    .fifth-of-second-div {
+        width: 900px;
+        height: 461px;
+        margin-right: 6px;
+
+    }
+
+}
+
+
 .new-arrival-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
