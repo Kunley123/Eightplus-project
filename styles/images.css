@@ -503,6 +503,15 @@ button:hover {
         margin-left: 30px;
         margin-top: -4px;
     }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .new-arrival-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 30px;
+        margin-top: -4px;
+    }
 
     .images {
         height: 100%;
@@ -567,6 +576,20 @@ button:hover {
     width: 100%;
     object-fit: cover;
     cursor: pointer;
+}
+
+@media (max-width: 750px) {
+    .four-images-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .four-images-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media (min-width: 1001px) and (max-width: 1999px) {
