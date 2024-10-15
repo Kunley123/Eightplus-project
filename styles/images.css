@@ -68,6 +68,61 @@
     cursor: pointer;
 }
 
+@media (min-width: 751px) and (max-width: 999px) {
+    .eight-plux {
+        position: absolute;
+        left: 160px;
+        top: 40%;
+        font-size: 50px;
+    }
+
+    .shop-now {
+        position: absolute;
+        top: 51%;
+        left: 160px;
+        border-style: none;
+        background-color: rgb(239, 234, 234);
+        color: rgb(93, 86, 86);
+        padding: 12px 20px;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1999px) {
+    .eight-plux {
+        position: absolute;
+        top: 40%;
+        left: 301px;
+        color: white;
+        font-size: 50px;
+    }
+
+    .shop-now {
+        position: absolute;
+        top: 51%;
+        left: 300px;
+        border-style: none;
+        background-color: rgb(239, 234, 234);
+        color: rgb(93, 86, 86);
+        padding: 12px 20px;
+    }
+
+}
+
+@media(max-width: 750px) {
+    .eight-plux {
+        position: absolute;
+        top: 41%;
+        left: 18px;
+    }
+
+    .shop-now {
+        position: absolute;
+        top: 51%;
+        left: 18px;
+    }
+}
+
 .second-item-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
