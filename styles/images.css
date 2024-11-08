@@ -109,19 +109,6 @@
 
 }
 
-@media(max-width: 750px) {
-    .eight-plux {
-        position: absolute;
-        top: 41%;
-        left: 18px;
-    }
-
-    .shop-now {
-        position: absolute;
-        top: 51%;
-        left: 18px;
-    }
-}
 
 .second-item-container {
     display: grid;
