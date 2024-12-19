@@ -5,6 +5,12 @@
     margin-bottom: 150px;
 }
 
+@media(max-width: 750px) {
+    .logo-social-media-container {
+        display: inline-block;
+    }
+}
+
 .social-media {
     flex: 1;
 }
