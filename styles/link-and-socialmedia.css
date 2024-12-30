@@ -2,12 +2,14 @@
     display: flex;
     flex-direction: row;
     margin-top: 115px;
-    margin-bottom: 150px;
+    margin-bottom: 135px;
 }
 
 @media(max-width: 750px) {
     .logo-social-media-container {
-        display: inline-block;
+        flex-direction: column;
+
+        align-items: center;
     }
 }
 
@@ -84,7 +86,7 @@
     display: flex;
     justify-content: center;
     font-size: 15px;
-    <doc font-weight: bold;
+    font-weight: bold;
     color: rgb(111, 110, 110);
     font-family: 'Montserrat', sans-serif;
 }
