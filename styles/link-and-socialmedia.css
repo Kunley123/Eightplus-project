@@ -8,7 +8,6 @@
 @media(max-width: 750px) {
     .logo-social-media-container {
         flex-direction: column;
-
         align-items: center;
     }
 }
@@ -89,4 +88,10 @@
     font-weight: bold;
     color: rgb(111, 110, 110);
     font-family: 'Montserrat', sans-serif;
+}
+
+@media(max-width:750px) {
+    .copyrigh-footert {
+        padding-bottom: 130px;
+    }
 }
