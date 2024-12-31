@@ -2,6 +2,12 @@
     background-color: rgb(246, 244, 244);
 }
 
+@media(max-width: 750px) {
+    .first-item {
+        margin-bottom: 40px;
+    }
+}
+
 .picture-one {
     width: 100%;
     height: 100%;
@@ -12,11 +18,7 @@
     .picture-one {
         width: 100%;
         height: 100%;
-        object-fit: cover;
-    }
-
-    .first-item {
-        margin: 0 20px 0 20px;
+        object-fit: fill;
     }
 
 }
@@ -134,10 +136,12 @@
     margin-bottom: 24px;
 }
 
+
 @media (max-width: 750px) {
     .second-item-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 40px;
     }
 
     .second-item-container {
