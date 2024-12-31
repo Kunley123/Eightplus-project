@@ -1,6 +1,5 @@
 .first-item {
     background-color: rgb(246, 244, 244);
-
 }
 
 .picture-one {
@@ -14,6 +13,10 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    .first-item {
+        margin: 0 20px 0 20px;
     }
 
 }
@@ -136,6 +139,10 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .second-item-container {
+        margin: 0 20px 0 20px;
+    }
 }
 
 @media (min-width: 751px) and (max-width: 999px) {
@@ -155,13 +162,8 @@
 
 .first-of-second,
 .second-of-second {
-    /* height: auto;
-    width: 100%;
-    max-height: 100%; */
-    /* height: 390px; */
     height: 100%;
     width: 100%;
-    /* width: 320px; */
     object-fit: cover;
     overflow: hidden;
 
@@ -171,8 +173,6 @@
 .fourth-of-second {
     height: 100%;
     width: 100%;
-    /* height: 431px;
-    width: 320px; */
     object-fit: cover;
     overflow: hidden;
 }
@@ -180,8 +180,6 @@
 .fifth-of-second {
     height: 100%;
     width: 100%;
-    /* height: 461px;
-    width: 320px; */
     margin-right: 6px;
     object-fit: cover;
     overflow: hidden;
@@ -197,29 +195,6 @@
     transform: scale(1.05);
 
 }
-
-/* .first-of-second-div,
-.second-of-second-div {
-    width: 320px;
-    height: 390px;
-    margin-right: 6px;
-
-}
-
-.third-of-second-div,
-.fourth-of-second-div {
-    width: 900px;
-    height: 431px;
-    margin-right: 6px;
-
-}
-
-.fifth-of-second-div {
-    width: 900px;
-    height: 461px;
-    margin-right: 6px;
-
-} */
 
 .first-of-second-div,
 .second-of-second-div {
