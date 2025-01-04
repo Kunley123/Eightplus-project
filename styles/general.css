@@ -76,3 +76,7 @@ body {
 .para-best-seller {
     margin-top: 10px;
 }
+
+main {
+    margin-right: -5px;
+}
